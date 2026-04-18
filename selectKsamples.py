@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument(
         "--input-dir",
         type=str,
-        default="data4",
+        default="kcenter",
         help="Used only when --embedding-path is not given.",
     )
     parser.add_argument(

@@ -51,7 +51,7 @@ def parse_args():
     parser.add_argument(
         "--subset-indices-path",
         type=str,
-        default="data4/kcenter/selected_indices_cosinek5000.txt",
+        default="kcenter/selected_indices_cosinek5000.txt",
         help="Optional path to a txt file containing selected train indices.",
     )
     parser.add_argument(

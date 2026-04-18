@@ -1,15 +1,18 @@
 # whisper-subset-selection
 
 ## 📂 Project Structure
+
+```
 .
-├── audioToVec.py # Extract Whisper embeddings
-├── selectKsamples.py # K-center subset selection
-├── selectLongestAudio.py # Longest-audio baseline
-├── train.py # Train Whisper model
-├── lexCoverage.py # Lexical diversity analysis
-├── plot.py # Plots (data + results)
-├── common_voice_subset/ # Preprocessed datasets
-└── data4/ # Embeddings / indices
+├── audioToVec.py           # Extract Whisper embeddings
+├── selectKsamples.py       # K-center subset selection
+├── selectLongestAudio.py   # Longest-audio baseline
+├── train.py                # Train Whisper model
+├── lexCoverage.py          # Lexical diversity analysis
+├── plot.py                 # Plots (data + results)
+├── common_voice_subset/    # Preprocessed datasets
+└── data4/                  # Embeddings / indices
+```
 
 
 ## Examples

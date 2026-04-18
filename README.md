@@ -11,7 +11,7 @@
 ├── lexCoverage.py          # Lexical diversity analysis
 ├── plot.py                 # Plots (data + results)
 ├── common_voice_subset/    # Preprocessed datasets
-└── data4/                  # Embeddings / indices
+└── kcenter/                # Embeddings / indices
 ```
 
 
